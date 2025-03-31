@@ -45,4 +45,5 @@ struct LandingView: View {
  
 #Preview {
     LandingView()
+        .environment(JokeViewModel())
 }
